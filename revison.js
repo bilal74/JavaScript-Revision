@@ -147,11 +147,95 @@
         // OR 
 // divided by 400
 
-// var year = 2021;
-// if((year % 4 == 0 || year % 100 != 0) && (year % 400 == 0)){
+// var year = 2020;
+// if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
 //     console.log("This is a leap year");
 // }
 // else{
 //     console.log("This is not a leap year");
 // }
+
+// What is truthy and falsy values in JS 
+// 0, "", undefined, null, Nan, false 
+// var score = 0
+// if(score = 5){
+//         console.log("Falsy")
+// }
+// else{
+//         console.log("Truthy");
+// }
+
+// Conditional (ternary) operator 
+// var age = 19;
+// if(age >= 18){
+//         console.log("You are eligible to vote");
+// }
+// else{
+//         console.log("You are not eligible to vote");
+// }
+// -------------- 
+// if-else updated version 
+// variableName = (condition) ? value1:value2; 
+
+// var age = 17;
+// console.log((age >= 18) ? "You can vote" : "You can not vote");
+
+
+// Switch Statement 
+// if()
+// else if 
+// else if 
+// else  
+
+// var area = "square"; 
+// var PI = 3.14, l=5, b=4, r=3;
+
+// switch(area){
+//         case 'circle':
+//                 console.log("Area of circle is : " + PI*r**2);
+//                 break;
+//         case 'square':
+//                 console.log("Area of square is : " + l*l);
+//                 break;
+
+//         default:
+//                 console.log("Please enter valid data");
+// }
+
+// for loop
+// for(var i=1; i<=5; i++){
+//         console.log("Altaf");
+//         console.log("Prashant");
+// }
+
+// while loop
+// var i=1;
+// while(i<=5){
+//         console.log("Sourav Dey");
+//         console.log("Sourav Ghosh");
+//         i++;
+// }
+
+// Do-While loop 
+// var num = 20;
+// do{
+//         console.log(num);
+//         num++;
+// }while(num<=25);
+
+// W a p to print table of given number ?
+// 5 X 1 = 5
+// 5 X 2 = 10
+
+// var num = 5;
+// for(var i=1; i<=10; i++){
+//         var ans = num * i;
+//         console.log(num + " " + "X"+ " " + i + " " + "=" + " " + ans);
+// }
+
+
+
+
+
+
 
