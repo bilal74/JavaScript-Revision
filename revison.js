@@ -433,14 +433,14 @@
         // }
 
         
-// for in for of loop 
-var friends = ['Altaf', 'Prashant', 'Rohan', 'Rishab', 11, true];
+// for in and for of loop 
+// var friends = ['Altaf', 'Prashant', 'Rohan', 'Rishab', 11, true];
 
 // for(let elements in friends){
-//         console.log(elements);
-// }
-// for(let elements of friends){
-//         console.log(elements);
+        //         console.log(elements);
+        // }
+        // for(let elements of friends){
+                //         console.log(elements);
 // }
 
 // for each loop 
@@ -450,37 +450,129 @@ var friends = ['Altaf', 'Prashant', 'Rohan', 'Rishab', 11, true];
 // }
 
 // friends.forEach(function(element, index, array){
-//         console.log(element + " index : "+index+ " " + array);
-// });
+        //         console.log(element + " index : "+index+ " " + array);
+        // });
+        
+        // Arrow fn 
+        // friends.forEach((element, index, array) => {
+                //         console.log(element + " index : "+index+ " " + array);
+                // });
+                
+// ***************************************************************
+// Date 27/04/21 Class - 4
+// ***************************************************************
+                
+// indexof
+// var friends = ['Altaf', 'Prashant', 'Sourav','Prathamesh', 'Sourav', 'Rishab'];
+// console.log(friends.indexOf("Rishab"));
+// console.log(friends.indexOf("Rishab1"));
+// console.log(friends.indexOf("Sourav", 5));
+// --------- 
 
-// Arrow fn 
-// friends.forEach((element, index, array) => {
-//         console.log(element + " index : "+index+ " " + array);
-// });
+// lastindexof
+// console.log(friends.lastIndexOf("Sourav"));
+// -----------------
+
+// includes()           - contains
+// return boolean 
+// var friends = ['Altaf', 'Prashant', 'Sourav','Prathamesh', 'Sourav', 'Rishab'];
+// console.log(friends.includes("Altaf"));
+// console.log(friends.includes("Altaf1"));
+// console.log(friends.includes("Altaf", 3));
+// ---------------------
+
+// find() method 
+// const prices = [100,200,300,500,800];
+// // price < 400
+// const findElem = prices.find((currVal) => {
+        //         return currVal < 400;
+        // })
+// const findElem = prices.find((currVal) => currVal < 400);
+// console.log(findElem);            
+// return only 1 element 
+
+// console.log(prices.find((currVal) => currVal < 400));
+// ---------------------------- 
+
+// findIndex()
+// console.log(prices.findIndex((currVal) => currVal > 400));
+// ---------------------------- 
+
+// filter 
+// const prices = [100,200,250,300,500,800];
+// console.log(prices.filter((currVal) => currVal < 400));
+// ---------------------------- 
+
+// Sort 
+// const months = ['March', 'Jan', 'April', 'Sep', 'June'];
+// console.log(months.sort());
+
+// const array1 = [1,20,600,3000,1001];
+// console.log(array1.sort());
+// ------------------
+
+// push ---- add
+// const months = ['March', 'Jan', 'April', 'Sep', 'June'];
+// const count111 = months.push('Dec');
+// console.log(count111);
+// console.log(months);
+// ----------------------
+
+// Unshift ---- add
+// const months = ['March', 'Jan', 'April', 'Sep', 'June'];
+// const count111 = months.unshift('Dec');
+// console.log(count111);
+// console.log(months);
+
+// const num1 = [1,2,3,5];
+// num1.unshift(4,6,);
+// console.log(num1);
+// ---------------- 
+
+// pop() - remove last element
+// const months = ['March', 'Jan', 'April', 'Sep', 'June'];
+// const count111 = months.pop();
+// // console.log(count111);
+// console.log(months);
+// --------------- 
+
+// shift ()   - remove first item
+// const months = ['March', 'Jan', 'April', 'Sep', 'June'];
+// const count111 = months.shift();
+// // console.log(count111);
+// console.log(months);
+// ------------------------
+
+// Splice() 
+// add / remove / modify 
+
+// syntax :
+// splice(start:delete:string);
+
+// 1. Add dec in the end 
+// 2. return value 
+// 3. update Sep to feb 
+// 4. Delete jan
+
+// const months = ['March', 'Jan', 'April', 'Sep', 'June'];
+// // 1.
+// const first1 = months.splice(1,4,'Dec')
+// // console.log(first1);
+// console.log(months);
+// ------ 
+// 3.
+
+// const indexOfMonth = months.indexOf('Sep');
+// // console.log(indexOfMonth);
+// const first1 = months.splice(indexOfMonth,1,'Feb')
+// // console.log(first1);
+// console.log(months);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ***************************************************************
+// Date 28/04/21 Class - 5
+// ***************************************************************
+                
 
 
 
