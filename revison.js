@@ -287,7 +287,7 @@
 
 // ------------------------------------------------ 
 // ECMA
-// JS - 1996
+// JS - 1995
 // ECMA - 1997
 // 2015 - ECMA Script 6 / ES - 6
 // 2016 - es 7
@@ -453,7 +453,7 @@
         //         console.log(element + " index : "+index+ " " + array);
         // });
         
-        // Arrow fn 
+// Arrow fn 
         // friends.forEach((element, index, array) => {
                 //         console.log(element + " index : "+index+ " " + array);
                 // });
@@ -572,24 +572,150 @@
 // ***************************************************************
 // Date 28/04/21 Class - 5
 // ***************************************************************
-                
+              
+// Map() - gives new array
+// const array1 = [1,4,5,9,16];
+// let newArr = array1.map((currElem, index, arr) => {
+        //         return currElem < 5;
+// });
+// console.log(array1);
+// console.log(newArr);
+
+// let newArr = array1.map((currElem, index, arr) => {
+//         return `Index No : ${index} and the value is ${currElem} belongs to ${arr}`;
+// });
+// console.log(newArr);
+// ------------------------ 
+// map is also chainable 
+// we can attach reduce, sort, filter() etc.
+
+// -------------------------- 
+
+// Ques. Find the square root of each element in array (use map)
+// const array1 = [4,9,16,25,26];
+
+// sol. 
+// let ans1 = array1.map((currElem) => Math.sqrt(currElem));
+// console.log(ans1);
+
+// Ques. Multiply each element by 2 and return only those elements which are greter that 20?
+// map filter   
+// sol. 
+
+// let ans2 = array1.map((currElem) => {
+//         return currElem * 2;
+// }).filter((currElem) => {
+        //         return currElem > 20;
+// });
+
+// let ans2 = array1.map((currElem) => currElem * 2).filter((currElem) => currElem > 20);
+// console.log(ans2);
+// --------------------------
+
+// Reduce Method 
+// 2D array single array 
+
+// Accumulator
+// Curent Value 
+// Current Index
+// Source array
+// Sum, product, average 
+// single value 
+
+// const array1 = [4,9,1,2,6];
+// let sum = array1.reduce((accumalator, currElem) => {
+//         return accumalator += currElem;
+// });
+// console.log(sum);
+
+// const array1 = [1,2,3];
+// let sum = array1.reduce((accumalator, currElem) => {
+//         return accumalator += currElem;
+// },4);
+// console.log(sum);
+
+// const array1 = [1,2,3];
+// let sum = array1.reduce((accumalator, currElem, index, arr) => {
+//         return accumalator += index;
+// },4);
+// console.log(sum);
+// ------------------------- 
+// const arr = [
+//         ['one', 'two'],
+//         ['three', 'four'],
+//                               ['three', ['one', 'two']]
+// ];
+// let flatArr = arr.reduce((accum, currVal) => {
+//         return accum.concat(currVal);
+// });
+// console.log(flatArr);
+// ----------------------------- 
+
+// Strings 
+// let str = "One";
+// let str1 = 'One';
+
+// String constrctor 
+// let str2 = new String("Two");
+// not recommended
+
+// length 
+// let name1 = "Rishab Rajput";
+// console.log(name1.length);
+// -------------- 
+
+// escape characters 
+// let str1 = "Today 'is' Thursday";
+// let str1 = 'Today "is" Thursday';
+// let str1 = "Today \"is\" Thursday";
+// console.log(str1);
+
+// indexof() 
+
+// let str1 = "Today is Thursday";
+// console.log(str1.indexOf("t"));
+// console.log(str1.indexOf("T"));
+// console.log(str1.indexOf("T",2));
+// ---------- 
+
+// lastindexof() 
+
+// let str1 = "Today is Thursday";
+// console.log(str1.indexOf("t"));
+// console.log(str1.lastIndexOf("T"));
+// console.log(str1.indexOf("T",2));
+// ------------- 
+
+// Search () 
+// let str1 = "Today is Thursday";
+// console.log(str1.search("T"));
+
+// -----------------------------
+
+// slice(start, end)
+                        //  -2-1
+// let str1 = "Today is Thursday";
+        //     01234567
+// let slice1 = str1.slice(1,10);
+// let slice1 = str1.slice(5,-2);
+// console.log(slice1);
+// ----------------- 
+
+// substring(start, end) 
+// let str1 = "Today is Thursday";
+// let sub1 = str1.substring(1,10);
+// console.log(sub1);
+
+// substr(start, length)
+// let str1 = "Today is Thursday";
+// // let sub1 = str1.substr(1,5);
+// let sub1 = str1.substr(4,-2);
+// console.log(sub1);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ***************************************************************
+// Date 29/04/21 Class - 6 
+// ***************************************************************
+// Meeting Record 
 
 
