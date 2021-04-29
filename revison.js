@@ -461,7 +461,7 @@
 // ***************************************************************
 // Date 27/04/21 Class - 4
 // ***************************************************************
-                
+
 // indexof
 // var friends = ['Altaf', 'Prashant', 'Sourav','Prathamesh', 'Sourav', 'Rishab'];
 // console.log(friends.indexOf("Rishab"));
@@ -619,6 +619,7 @@
 // Curent Value 
 // Current Index
 // Source array
+
 // Sum, product, average 
 // single value 
 
@@ -705,6 +706,7 @@
 // let str1 = "Today is Thursday";
 // let sub1 = str1.substring(1,10);
 // console.log(sub1);
+// -ve value will consider 0;
 
 // substr(start, length)
 // let str1 = "Today is Thursday";
@@ -717,5 +719,98 @@
 // Date 29/04/21 Class - 6 
 // ***************************************************************
 // Meeting Record 
+
+// Ques. 
+// Display only 50 char 
+// sol. 
+// let temp1 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae cum. Laudantium officiis aut necessitatibus aspernatur! Debitis voluptas repellat commodi distinctio possimus. Exercitationem labore eligendi dolore? Nesciunt veniam, perferendis officia, eaque asperiores iste repudiandae, accusamus deleniti libero saepe ipsum tenetur sequi voluptas excepturi doloremque omnis dolorem a quibusdam. Iusto earum obcaecati consequuntur ullam amet aliquam fugit, voluptatem, reiciendis laborum nihil magni deleniti minus accusantium dolores eaque? Laboriosam, ab, quas, assumenda placeat aperiam earum ex quod facere magni vel sequi accusantium! A nemo eum, fugit vitae cupiditate veniam aliquid enim vel sapiente explicabo hic quos eius, laborum eos, esse quas recusandae!";
+
+// let ans1 = temp1.slice(0,50);
+// console.log(ans1);
+// console.log(ans1.length);
+// ---------------------------- 
+
+// replace(search, replace) - return new string
+
+// let para1 = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
+// let replace1 = para1.replace('amet', 'Sourav');
+// console.log(replace1);
+// console.log(para1);
+// --------------------------- 
+
+// Extraction Strings Characters 
+
+// CharAt(position) - Method 
+// let name1 = "Ravindra Pratap Singh";
+// console.log(name1.charAt(2));
+
+// charCodeat() - Method - Return UTF-16 Code
+// let name1 = "Ravindra Pratap Singh";
+// console.log(name1.charCodeAt(0));
+// ---------- 
+
+// Ques. return the unicode value of the last char in a string
+// sol. 
+// let name1 = "Ravindra Pratap Singh";
+// let lastChar = name1.length - 1;
+// console.log(name1.charCodeAt(lastChar));
+// --------------- 
+
+// Property Access 
+
+// let name1 = 'Rishab Rajput';
+// console.log(name1[0]);
+// --------------------------- 
+
+// Upper / lower case 
+// let name1 = 'Ravindra Pratap Singh';
+// let name2 = 'Prasang Chouksey';
+
+// console.log(name1.toLowerCase());
+// console.log(name2.toUpperCase());
+// --------------- 
+
+// concat() 
+// let fname = "Bilal";
+// let lname = "Khalid";
+
+// console.log(fname+lname);
+// console.log(fname.concat(lname));
+// console.log(fname.concat(" ",lname));
+// console.log(`${fname} ${lname}`);
+
+// ------------------------- 
+
+// trim() - Remove whitespaces
+
+// let name1 = "        Prasang             Chouksey        ";
+// console.log(name1.trim());
+
+// let y = name1.replace(/\s+/g," ");
+// // let y = name1.replace()
+// // console.log(y);
+// console.log(y.trim());
+// ----------------------- 
+
+// Split() - Str convert array 
+
+// var temp1 = "a,b c | d,e";
+// console.log(temp1.split(","));
+// console.log(temp1.split(" "));
+// console.log(temp1.split("|"));
+// ---------------------------------------- 
+
+// ***************************************************************
+// Date 30/04/21 Class - 7 
+// ***************************************************************
+// Meeting Record 
+
+
+
+
+
+
+
+
 
 
