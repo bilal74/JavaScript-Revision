@@ -573,7 +573,7 @@
 // Date 28/04/21 Class - 5
 // ***************************************************************
               
-// Map() - gives new array
+// Map() - gives new array - gives boolean
 // const array1 = [1,4,5,9,16];
 // let newArr = array1.map((currElem, index, arr) => {
         //         return currElem < 5;
@@ -644,7 +644,6 @@
 // const arr = [
 //         ['one', 'two'],
 //         ['three', 'four'],
-//                               ['three', ['one', 'two']]
 // ];
 // let flatArr = arr.reduce((accum, currVal) => {
 //         return accum.concat(currVal);
@@ -746,7 +745,7 @@
 
 // charCodeat() - Method - Return UTF-16 Code
 // let name1 = "Ravindra Pratap Singh";
-// console.log(name1.charCodeAt(0));
+// console.log(name1.charCodeAt(1));
 // ---------- 
 
 // Ques. return the unicode value of the last char in a string
@@ -805,12 +804,76 @@
 // ***************************************************************
 // Meeting Record 
 
+// Date and time 
+// 1 Jan 1970 12:00 am 
+
+// Creating Date 
+// new Date();
+// new Date(year, month, day, hours, minutes, seconds, milisecond);
+// month 0-11
+
+// new Date(milisecond);
+// new Date(date String);
+// ----------------------- 
+
+// let date1 = new Date();
+// console.log(date1);
+
+// console.log(new Date());
+// console.log(new Date().toLocaleString());
+// console.log(new Date().toString());
+// ------------------ 
+
+// console.log(Date.now());
+// -------------
+// var d = new Date(2021,4);
+// var d = new Date(2021);
+// var d = new Date(2021,4,8);
+// console.log(d.toLocaleString());
+// ----------
+
+// var d = new Date(56446467587587);
+// console.log(d.toLocaleString());
+// ----------- 
+
+// new Date(year, month, day, hours, minutes, seconds, milisecond);
+// const curdate = new Date();
+// console.log(curdate.getMonth());
+// ----------------------------- 
+
+// Math Object in JS 
+
+// console.log(Math.PI);
+
+// let num1 = 2.301;
+// let num1 = 2.801;
+// console.log(Math.round(num1));
+
+// console.log(Math.pow(2,3));
+// console.log(2**3);
+
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(26));
+
+// console.log(Math.abs(-26));
+
+// console.log(Math.floor(2.6));
+// console.log(Math.ceil(2.6));
+
+// console.log(Math.min(1,5,3,8));
+// console.log(Math.max(1,5,3,8));
+
+// console.log(Math.trunc(4.2));
+// console.log(Math.trunc(-4.1));
+
+// console.log(Math.random());
+// console.log(Math.random()*10);
+// console.log(Math.floor(Math.random()*10));
+// console.log(Math.trunc(Math.random()*10));
 
 
-
-
-
-
-
-
+// ***************************************************************
+// Date 1/05/21 Class - 8 
+// ***************************************************************
+// Meeting Record 
 
