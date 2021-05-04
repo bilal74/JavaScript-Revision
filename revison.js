@@ -717,7 +717,6 @@
 // ***************************************************************
 // Date 29/04/21 Class - 6 
 // ***************************************************************
-// Meeting Record 
 
 // Ques. 
 // Display only 50 char 
@@ -876,4 +875,61 @@
 // Date 1/05/21 Class - 8 
 // ***************************************************************
 // Meeting Record 
+
+// Alert, Prompt, Confirm 
+
+// Alert: 
+// alert("Prasang");            (In browser)
+
+// Prompt
+// let name = prompt("What is your name");
+// console.log(name);
+// let name = prompt("What is your name");
+// let name = prompt("What is your name ?", "Sourav Dey");
+
+// Confirm 
+// let delete1 = confirm("Do you really want to delete?");
+// if(delete1){
+//         console.log("Deleted");
+// }
+// else{
+//         console.log("Not deleted");
+// }
+// ---------------
+
+// DOM and BOM 
+// window.location
+// Location {ancestorOrigins: DOMStringList, href: "https://www.google.com/", origin: "https://www.google.com", protocol: "https:", host: "www.google.com", …}
+// window.location.href
+// "https://www.google.com/"
+// location.href
+// "https://www.google.com/"
+// --------------- 
+
+// Window:
+// DOM: Document Object Model 
+// BOM : Browser Object Model 
+
+// DOM: document, body
+// BOM: Navigator, screen, location, frames, history, XML http request 
+// JS: Object, Array, Functions 
+
+// ---------------------------- 
+// document.body.style.background = "Blue";
+// document
+// document.documentElement
+
+// document.head
+// document.body
+// document.body.childNodes 
+// document.childNodes.length 
+
+// hasChild - boolean 
+// firstchild
+// lastChild
+// siblings
+// nextSiblings
+// previousSiblings
+// -------------- 
+
 
