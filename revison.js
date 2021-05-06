@@ -801,7 +801,6 @@
 // ***************************************************************
 // Date 30/04/21 Class - 7 
 // ***************************************************************
-// Meeting Record 
 
 // Date and time 
 // 1 Jan 1970 12:00 am 
@@ -872,7 +871,7 @@
 
 
 // ***************************************************************
-// Date 1/05/21 Class - 8 
+// Date 4/05/21 Class - 8 
 // ***************************************************************
 // Meeting Record 
 
@@ -898,12 +897,10 @@
 // ---------------
 
 // DOM and BOM 
+
 // window.location
-// Location {ancestorOrigins: DOMStringList, href: "https://www.google.com/", origin: "https://www.google.com", protocol: "https:", host: "www.google.com", …}
 // window.location.href
-// "https://www.google.com/"
 // location.href
-// "https://www.google.com/"
 // --------------- 
 
 // Window:
@@ -931,5 +928,169 @@
 // nextSiblings
 // previousSiblings
 // -------------- 
+
+
+// ***************************************************************
+// Date 5/05/21 Class - 9 
+// ***************************************************************
+// Meeting Record 
+
+// Event Listener 
+// Event : It is a Signal. 
+
+// Browser Events  
+// click
+// context menu (right click )
+// mouseover / mouseout (mouse bahar nikal)
+// mouseup / mouse down (mouse press)
+// mousemove 
+// ------------------
+
+// Timing Events 
+
+// 1. Set setTimeout
+// 2. Clear Timeout
+// 3. SetInterval  
+// 4.  clearInterval 
+
+// setTimeout(function, milisecond) - 5 sec time - it will execute after 5 sec 
+// setInterval - same as setTimeout - it will repeat 
+
+// function greet(name, text){
+//         // console.log(`Hello ${name} ${text}`);
+//         alert(`Hello ${name} ${text}`);
+//     }
+//     setTimeout(greet, 3000, "Ravi", "Sir");
+// ---------------------- 
+
+
+// ***************************************************************
+// Date 6/05/21 Class - 10 
+// ***************************************************************
+// Meeting Record 
+
+// Objects 
+
+// let bioData = {
+//         fName : "Ravindra",
+//         lName : "Pratap",
+//         myAge : 23,
+//         city : "Lucknow"
+// }
+
+// console.log(bioData);
+// console.log(bioData.lName);
+
+
+// let bioData = {
+//         fName : "Ravindra",
+//         lName : "Pratap",
+//         myAge : 23,
+//         city : "Lucknow",
+//         getData : function(){
+//                 console.log(`My name is ${bioData.fName} and my age is ${bioData.myAge}`)
+//         }
+// }
+// // console.log(bioData.getData());
+// bioData.getData();
+
+
+// ==================================================
+// var bioData = {
+//         fName : "Ravindra",
+//         lName : "Pratap",
+//         myAge : 23,
+//         city : "Lucknow",
+//         getData (){
+//                 console.log(`My name is ${bioData.lName} and my age is ${bioData.myAge} role ${role}`)
+//         }
+
+// }
+// // console.log(bioData.getData());
+// bioData.getData();
+// var role = "Student";
+// ======================================================
+
+// Nested Object (Object within object)
+
+// var bioData = {
+//         myName : {
+//                 fName : "Ravindra",
+//                 lName : "Pratap"
+//         },        
+//         myAge : 23,
+//         city : "Lucknow",
+//         getData (){
+//                 console.log(`My name is ${bioData.lName} and my age is ${bioDatamyAge}`)
+//         }        
+// }
+// console.log(bioData.myName.fName);
+// ----------------------------------------------- 
+
+// What is "this" object 
+// contain context 
+
+// function myName() {
+//         console.log(this.myName);
+// }
+// myName();
+
+// var myName1 = 'Sourav';
+// function myName() {
+//         console.log(this.myName1);
+// }
+// myName();
+
+// const obj = {
+//         age : 24,
+//         myName() {
+//                 console.log(this);
+//         }
+// }
+// obj.myName();
+// const obj = {
+//         age : 20,
+//         name1 : "Sourav",
+//         myName() {
+//                 // console.log(this.age);
+//                 console.log(this.name1);
+//         }
+// }
+// obj.myName();
+// obj.myName();
+
+const obj = {
+        age : 20,
+        name1 : "Sourav",
+        myName :{
+                // console.log(this.age);
+                console.log(this.name1);
+        }
+}
+obj.myName();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
