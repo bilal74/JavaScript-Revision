@@ -1048,40 +1048,182 @@
 //         }
 // }
 // obj.myName();
+
 // const obj = {
 //         age : 20,
 //         name1 : "Sourav",
 //         myName() {
-//                 // console.log(this.age);
-//                 console.log(this.name1);
+//                 console.log(this.age);
+//                 // console.log(this.name1);
 //         }
 // }
 // obj.myName();
+
+
+// ***************************************************************
+// Date 7/05/21 Class - 11 
+// ***************************************************************
+// Meeting Record 
+
+// With Arrow function 
+// const obj = {
+//         age : 20,
+//         name1 : "Sourav",
+//         myName : () => {
+//                 // console.log(this.age);
+//                 // console.log(this.name1);
+//                 // console.log(name1);
+//                 // console.log(this.age);
+//         }
+// }
 // obj.myName();
+// -------- 
+ 
+// With string literals 
+// var bioData = {
+//         myName : {
+//                 fName : "Rishab",
+//                 lName : "Rajput"
+//         },        
+//         myAge : 25,
+//         city : "Nashik",
+//         getData (){
+//                 console.log(`My name is ${this.myName.fName} and my age is ${this.myAge}`)
+//         }        
+// }
+// // console.log(bioData.myName.fName);
+// bioData.getData();
+// ----------- 
 
-const obj = {
-        age : 20,
-        name1 : "Sourav",
-        myName :{
-                // console.log(this.age);
-                console.log(this.name1);
-        }
-}
-obj.myName();
+// Ecma Script Continue 
 
+// Destructuring 
 
+// Array Destructuring 
 
+// const bioData = ['Sourav', 'Dey', 24];
+// // let fName = bioData[0];
+// // console.log(fName);
 
+// let [fName,lName,age, city="Kolkata"] = bioData;
+// // console.log(lName);
+// console.log(city, fName);
 
+// -------------------- 
 
+// Object Destructuring 
 
+// const bioData = {
+//         fName : 'Sourav',
+//         lName : 'Dey',
+//         state : 'West Bengal'
+// }
+// let {fName,lName,state, city="Kolkata"} = bioData;
+// console.log(fName);
+// console.log(typeof(city));
 
+// -----------------
+// Object Property
 
+// We can use dynamic Property 
+// const bioData = {
+//         fName : 'Sourav',
+//         [20 + 4] : 'This is my age'
+// }
+// console.log(bioData);
+// -------------- 
 
+// If key and value both are same then no need to write value 
+// let myName = "Bilal";
+// let myAge = 24;
+// const bioData = {myName, myAge};
+// console.log(bioData);
+// ----------- 
 
+// Spread Operator 
 
+// const colour1 = ['Red', 'Black', 'Blue','Yellow'];
 
+// const favColour = [...colour1,'Violet', 'Green'];
+// console.log(favColour);
+// ----------------------------- 
 
+// ES7 - 2016
+// 1. ** 
+// console.log(3**2);
+
+// 2. include - gives boolean 
+
+// const colour1 = ['Red', 'Black', 'Blue','Yellow'];
+// // const present1 = colour1.includes('Red');
+// const present1 = colour1.includes('red');
+// console.log(present1);
+// ------------------------------- 
+
+// ES8 - 2017
+// 1. String padding
+// 2. Object values 
+// 3. Object Entries
+// 4. Async Function
+
+// const name1 = "Prashant";
+// const name2 = "Rishab";
+// // console.log(name1.padStart(15));
+// console.log(name2.padEnd(15));
+// ------ 
+
+// Object to Array 
+// const person = {name1 : "Rishab", age : 24};
+// // console.log(Object.values(person));
+// console.log(Object.entries(person));
+// --- 
+
+// Array to Object - ES-10
+// const person = {name1 : "Rishab", age : 24};
+// const arrObj = Object.entries(person);
+// console.log(Object.fromEntries(arrObj));
+// -------------- 
+
+// ES9 - 2018
+
+// const colour1 = {a:'Red', b:'Black', c:'Blue',d:'Yellow'};
+
+// const favColour = {...colour1,e:'Violet', f:'Green'};
+// console.log(favColour);
+// ----------------- 
+
+// ES10 - 2019
+// flat 
+// const arr = [
+//         ['one', 'two'],
+//         ['three', 'four'],
+//         ['a', 'b',['c','d',['e']]]
+// ];
+// // console.log(arr.flat(3));
+// console.log(arr.flat(Infinity));
+// console.log(arr.flat(arr.length));
+// ---------------- 
+
+// ES-11 2020
+// BigInt 
+// let num1 = Number.MAX_SAFE_INTEGER;
+// console.log(num1);
+
+// console.log(9007199254740991 + 24);
+// console.log(9007199254740991n + 24n);
+
+// Nullish Coalescing - null/undefine
+// const one1 = null ?? 'String';
+// const one1 = "Hello" ?? 'String';
+// const one1 = NaN ?? 'String';
+// console.log(one1);
+// --------------
+
+// ES2014 
+// "use strict"
+// x = 3.14;
+// console.log(x);
+// --------------------  
 
 
 
