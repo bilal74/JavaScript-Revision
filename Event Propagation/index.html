@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parentDiv{
+            width: 600px;
+            height: 400px;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .childDiv{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(219, 34, 148);
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>Heading</h2> -->
+    <div class="parentDiv" id="parentId">
+        <div class="childDiv" id="childId"></div>
+    </div>
+
+    <script>
+        const parentId = document.getElementById('parentId')
+        const childId = document.getElementById('childId')
+
+        const parentFn = () => {
+            alert('Parent Sourav');
+        }
+        const childFn = () => {
+            alert('Child lorem');
+            event.stopPropagation();
+        }
+
+        parentId.addEventListener('click', parentFn);
+        childId.addEventListener('click', childFn);
+
+        // parentId.addEventListener('click', parentFn, true);
+        // childId.addEventListener('click', childFn, true);
+
+    </script>
+</body>
+
+</html>

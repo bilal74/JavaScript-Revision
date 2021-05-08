@@ -501,6 +501,23 @@
 // filter 
 // const prices = [100,200,250,300,500,800];
 // console.log(prices.filter((currVal) => currVal < 400));
+// ----- 
+
+// some 
+// some - give multiple Values
+// gives new array 
+// agr ek bhi true h to true milega
+// const prices = [100,200,250,300,500,800];
+// // console.log(prices.some((currVal) => currVal < 50));
+// console.log(prices.some((currVal) => currVal < 1500));
+// ----------
+
+// every
+// every - gives boolean
+// sb true hoga tbi value true hogi
+// const prices = [100,200,250,300,500,800];
+// console.log(prices.every((currVal) => currVal < 400));
+// || &&
 // ---------------------------- 
 
 // Sort 
@@ -605,7 +622,7 @@
 // let ans2 = array1.map((currElem) => {
 //         return currElem * 2;
 // }).filter((currElem) => {
-        //         return currElem > 20;
+//                 return currElem > 20;
 // });
 
 // let ans2 = array1.map((currElem) => currElem * 2).filter((currElem) => currElem > 20);
@@ -1211,8 +1228,10 @@
 
 // console.log(9007199254740991 + 24);
 // console.log(9007199254740991n + 24n);
+// ------- 
 
 // Nullish Coalescing - null/undefine
+
 // const one1 = null ?? 'String';
 // const one1 = "Hello" ?? 'String';
 // const one1 = NaN ?? 'String';
