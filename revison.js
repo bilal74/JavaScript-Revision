@@ -272,6 +272,7 @@
 // }
 // // sum(10,100);
 // console.log(sum(1,9));
+// -------------
 
 // Anonymous function 
 // var sum = function(a,b){

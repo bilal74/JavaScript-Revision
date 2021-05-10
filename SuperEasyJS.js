@@ -55,8 +55,9 @@
 // Scope Chain and Lexical Scoping 
 // let x = 25;
 // console.log(x);
+// ------------------------- 
 
-// Lexucal Scoping
+// Lexical Scoping
 // let name1 = "Abhinav ";
 
 // const first = () => {
@@ -70,6 +71,7 @@
 //     // console.log(name1+b+c);
 // }
 // first();
+// ------ 
 
 // var name1 = "Rishab ";
 
@@ -108,7 +110,7 @@
 // }
 // let final1 = outerFn(20);
 // console.log(final1);
-// console.log(final1());
+// // console.log(final1());
 // final1();
 // console.dir(final1);     (try this in browser)
 // ---------------------
@@ -117,7 +119,7 @@
 
 // Synchronous
 // 1 work = 20 min 
-// 2 work = 5 sec 
+// 2 work = 5 min 
 
 // const fun2 = () => {
 //     console.log('Function 2 is called');
@@ -133,7 +135,7 @@
 
 // Asynchronous
 // 1 work = 20 min 
-// 2 work = 5 sec 
+// 2 work = 5 min 
 
 // const fun2 = () => {
 //     setTimeout(() =>{
@@ -147,15 +149,55 @@
 //     console.log('Function 3 is called');
 // }
 // fun1();
+// ----------------------- 
+// ***************************************************************
+// Date 10/05/21 Class - 13 
+// ***************************************************************
+// Meeting Record 
 
+// Currying 
+// function sum(num1,num2,num3){
+//     console.log(num1+num2+num3);
+// }
+// sum(5)(2)(3);
+// sum(5,2,3);
+// ----- 
 
+// function sum(num1){
+//     // console.log(num1);
+//     return function(num2){
+//         return function(num3){
+//             console.log(num1+num2+num3);
+//         }
+//     }
+// }
+// sum(5)(2)(3);
+// ---------------
 
+// const sum = (num1) => (num2) => (num3) => console.log(num1+num2+num3);
+// sum(5)(2)(3);
+// ---------------------------------
 
+// CallBack hell 
+// setTimeout(() =>{
+//     console.log(`1st work is done`);
+//     setTimeout(() =>{
+//         console.log(`2nd work is done`);
+//         setTimeout(() =>{
+//             console.log(`3rd work is done`);
+//         },2000);
+//     },2000);
+// },2000);
+// ---------------------- 
 
-
-
-
-
+// We can use Promises 
+// Error Handling
+// API 
+// JSON 
+// AJAX 
+// Prototype 
+// Binding / call bind
+// Symbol
 
 
 
