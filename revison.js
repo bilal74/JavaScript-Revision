@@ -1170,7 +1170,7 @@
 // 1. ** 
 // console.log(3**2);
 
-// 2. include - gives boolean 
+// 2. includes - gives boolean 
 
 // const colour1 = ['Red', 'Black', 'Blue','Yellow'];
 // // const present1 = colour1.includes('Red');
