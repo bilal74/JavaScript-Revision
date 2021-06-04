@@ -1,7 +1,6 @@
 // ***************************************************************
 // Date 8/05/21 Class - 12 
 // ***************************************************************
-// Meeting Record 
 
 // Event Propagation 
 
@@ -153,7 +152,6 @@
 // ***************************************************************
 // Date 10/05/21 Class - 13 
 // ***************************************************************
-// Meeting Record 
 
 // Currying 
 // function sum(num1,num2,num3){
@@ -190,11 +188,13 @@
 // },2000);
 // ---------------------- 
 
+// API - Done
+// JSON - Done
+// AJAX - Done
+// await - Done
+
 // We can use Promises 
 // Error Handling
-// API 
-// JSON 
-// AJAX 
 // Prototype 
 // Binding / call bind
 // Symbol

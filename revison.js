@@ -529,14 +529,14 @@
 // console.log(array1.sort());
 // ------------------
 
-// push ---- add
+// push ---- add last
 // const months = ['March', 'Jan', 'April', 'Sep', 'June'];
 // const count111 = months.push('Dec');
 // console.log(count111);
 // console.log(months);
 // ----------------------
 
-// Unshift ---- add
+// Unshift ---- add first
 // const months = ['March', 'Jan', 'April', 'Sep', 'June'];
 // const count111 = months.unshift('Dec');
 // console.log(count111);
@@ -592,6 +592,8 @@
 // ***************************************************************
               
 // Map() - gives new array - gives boolean
+// Agar sari values chahiye ho
+
 // const array1 = [1,4,5,9,16];
 // let newArr = array1.map((currElem, index, arr) => {
         //         return currElem < 5;
@@ -891,7 +893,6 @@
 // ***************************************************************
 // Date 4/05/21 Class - 8 
 // ***************************************************************
-// Meeting Record 
 
 // Alert, Prompt, Confirm 
 
@@ -951,7 +952,6 @@
 // ***************************************************************
 // Date 5/05/21 Class - 9 
 // ***************************************************************
-// Meeting Record 
 
 // Event Listener 
 // Event : It is a Signal. 
@@ -1081,7 +1081,6 @@
 // ***************************************************************
 // Date 7/05/21 Class - 11 
 // ***************************************************************
-// Meeting Record 
 
 // With Arrow function 
 // const obj = {
